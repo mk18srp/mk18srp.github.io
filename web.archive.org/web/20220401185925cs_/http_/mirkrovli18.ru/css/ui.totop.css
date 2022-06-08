@@ -1,0 +1,58 @@
+/*
+|--------------------------------------------------------------------------
+| UItoTop jQuery Plugin 1.2
+| http://www.mattvarone.com/web-design/uitotop-jquery-plugin/
+|--------------------------------------------------------------------------
+*/
+
+#toTop {
+	display:none;
+	text-decoration:none;
+	position:fixed;
+	bottom:10px;
+	right:10px;
+	overflow:hidden;
+	width:51px;
+	height:51px;
+	border:none;
+	text-indent:100%;
+	background:url(../../../../20220413230740im_/http_/mirkrovli18.ru/images/ui_totop/ui.totop.png) no-repeat left top;
+}
+
+#toTopHover {
+	background:url(../../../../20220413230740im_/http_/mirkrovli18.ru/images/ui_totop/ui.totop.png) no-repeat left -51px;
+	width:51px;
+	height:51px;
+	display:block;
+	overflow:hidden;
+	float:left;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter:alpha(opacity=0);
+}
+
+#toTop:active, #toTop:focus {
+	outline:none;
+}
+/*
+     FILE ARCHIVED ON 18:59:25 Apr 01, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:22:32 Jun 08, 2022.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 97.218
+  exclusion.robots: 0.156
+  exclusion.robots.policy: 0.142
+  cdx.remote: 0.102
+  esindex: 0.013
+  LoadShardBlock: 36.407 (3)
+  PetaboxLoader3.datanode: 39.399 (5)
+  CDXLines.iter: 21.584 (3)
+  load_resource: 43.674
+  PetaboxLoader3.resolve: 26.55
+  loaddict: 9.4
+*/
